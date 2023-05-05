@@ -1,0 +1,92 @@
+body {background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p {
+  color: #1B4965;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card h1 {
+  font-size: 36px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #1B4965;
+  color: white;
+  font-size: 16px;
+  text-decoration:none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.list-inline {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.list-inline li {
+  margin: 0 10px;
+}
+
+.list-inline li a i {
+  font-size: 24px;
+  color: #1B4965;
+}
+
+/* Media queries for responsive design */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px)
+{
+.container {
+width: 500px;
+}
+
+.card h1 {
+font-size: 28px;
+}
+
+.btn {
+font-size: 14px;
+padding: 8px 16px;
+}
+}
